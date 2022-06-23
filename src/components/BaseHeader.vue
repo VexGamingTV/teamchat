@@ -1,11 +1,11 @@
 <script lang="ts">
 export default {
-  name: "HomeView"
+  name: "BaseHeader"
 };
 </script>
 
 <template>
-<b>Team Chat</b>
+<b>Team_Chat</b>
 </template>
 <style scoped>
 
