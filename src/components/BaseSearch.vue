@@ -6,8 +6,7 @@ export default {
 
 <template>
   <div class="form">
-    <i class="fa fa-search"></i>
-    <input type="text" class="form-control form-input" placeholder="Search anything...">
+    <input type="text" class="form-control form-input" placeholder="Search all chatrooms...">
     <span class="left-pan"><i class="fa fa-search"></i></span>
   </div>
 </template>

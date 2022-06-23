@@ -6,6 +6,7 @@ export default {
 
 <template>
 <b>Team Chat</b>
+<hr class= "teamChatUnderline">
 </template>
 <style scoped>
 

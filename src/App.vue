@@ -11,7 +11,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </header>
   <div class="container">
     <div class="row">
-      <div class="col-4 mx-auto d-flex justify-content-center">
+      <div class="col-6 mx-auto border teamchat">
         <RouterView />
       </div>
     </div>
@@ -20,7 +20,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <style>
 body{
-  background: #d1d5db;
+  font-size: 1vw;
 }
 .height {
   height: 100vh;
@@ -30,8 +30,8 @@ body{
 }
 .form .fa-search {
   position: absolute;
-  top:20px;
-  left: 20px;
+  top: 8px;
+  right: 2px;
   color: #9ca3af;
 
 }
@@ -39,7 +39,6 @@ body{
   position: absolute;
   right: 17px;
   top: 13px;
-  padding: 2px;
   border-left: 1px solid #d1d5db;
 
 }
@@ -51,11 +50,18 @@ body{
 }
 .form-input {
   height: 55px;
-  text-indent: 33px;
+  text-indent: 5px;
   border-radius: 10px;
 }
 .form-input:focus {
-  box-shadow: none;
-  border:none;
+  box-shadow: #be5f12;
+  border: none;
+}
+.teamchat {
+  text-align: center;
+}
+.teamChatUnderline {
+  width: 15%;
+  margin: auto auto 4px;
 }
 </style>
