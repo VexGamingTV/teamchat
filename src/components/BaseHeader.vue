@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-<b>Team_Chat</b>
+<b>Team Chat</b>
 </template>
 <style scoped>
 
