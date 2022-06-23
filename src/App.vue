@@ -14,4 +14,5 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style>
+@import'~bootstrap/dist/css/bootstrap.css';
 </style>
